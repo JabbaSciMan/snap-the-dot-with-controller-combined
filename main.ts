@@ -29,9 +29,6 @@ let Sprite: game.LedSprite = null
 let Score = 0
 radio.setGroup(103)
 basic.showIcon(IconNames.Happy)
-basic.pause(100)
-basic.showString("POWER ON")
-basic.pause(5000)
 Score = 0
 Sprite = game.createSprite(2, 2)
 let TIME = 500
