@@ -24,9 +24,6 @@ radio.onReceivedString(function (receivedString) {
         }
     }
 })
-input.onButtonPressed(Button.B, function () {
-    radio.sendString("Loop")
-})
 let LIFE = 0
 let Sprite: game.LedSprite = null
 let Score = 0
